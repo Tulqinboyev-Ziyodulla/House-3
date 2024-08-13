@@ -1,0 +1,27 @@
+.navbar__menu{
+    display: none;
+}
+@media (max-width:990px) {
+    .nav__collect {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .nav__collect {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navbar__collection {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        color: #fff;
+        align-items: center;
+    }
+    .navbar__number{
+        display: none;
+    }
+}
