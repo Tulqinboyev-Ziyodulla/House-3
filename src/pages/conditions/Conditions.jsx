@@ -1,7 +1,7 @@
 import React from "react";
 import NotFound from "../not-found/NotFound";
 
-const Uslovenne = () => {
+const Conditions = () => {
   return (
     <div>
       <NotFound />
@@ -9,4 +9,4 @@ const Uslovenne = () => {
   );
 };
 
-export default Uslovenne;
+export default Conditions;

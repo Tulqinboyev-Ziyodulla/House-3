@@ -61,15 +61,15 @@ const box = [
     title: "Кухня и бытовая тех..",
   },
 ];
-const Kategorey = () => {
+const Kategory = () => {
   return (
     <div className="kategorey">
       <div className="container mx-auto ">
         <div className="Name flex flex-col md:flex-row gap-5 items-center md:items-end mb-5 md:mb-10">
-          <p className="text-2xl md:text-4xl font-bold info">
+          <p className="text-2xl md:text-4xl font-bold info px-20">
             Популярные категории
           </p>
-          <p className="text-sm md:text-base">Все категории</p>
+          <p className="text-sm md:text-base ml-[-50px]">Все категории</p>
         </div>
 
         <div className="flex gap-4 flex-wrap mb-10 items-center justify-center">
@@ -88,4 +88,4 @@ const Kategorey = () => {
   );
 };
 
-export default Kategorey;
+export default Kategory;

@@ -1,10 +1,10 @@
 import React from "react";
-import Curyer from "../curyer/Curyer";
+import Delivery from "../delivery/Delivery";
 
 const Dastafka = () => {
   return (
     <div>
-      <Curyer />
+      <Delivery />
     </div>
   );
 };

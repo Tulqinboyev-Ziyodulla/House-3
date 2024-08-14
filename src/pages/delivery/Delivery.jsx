@@ -1,7 +1,7 @@
 import React from "react";
 import foto from "../../assets/das.png";
 import foto1 from "../../assets/das1.png";
-const Curyer = () => {
+const Delivery = () => {
   return (
     <div className="container mx-auto px-20">
       <p className="text-[36px] text font-[700] mt-[-100px] mb-11">Доставка</p>
@@ -93,4 +93,4 @@ const Curyer = () => {
   );
 };
 
-export default Curyer;
+export default Delivery;

@@ -1,11 +1,11 @@
 import React from "react";
-import "./fon.css";
+import "./contacts.css";
 import kontact from "../../assets/ool.png";
 import { FaWeebly } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa";
 import { IoLogoGoogleplus } from "react-icons/io";
 
-const Fon = () => {
+const Contacts = () => {
   return (
     <div className="container mx-auto px-20">
       <p className="text-[36px] text font-[700] mt-[-100px] mb-11">Контакты</p>
@@ -37,4 +37,4 @@ const Fon = () => {
   );
 };
 
-export default Fon;
+export default Contacts;

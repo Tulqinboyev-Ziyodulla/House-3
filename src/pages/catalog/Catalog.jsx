@@ -93,7 +93,7 @@ const list = [
     price: "Больше",
   },
 ];
-const Mebels = () => {
+const Catalog = () => {
   return (
     <div className="container mx-auto">
       <p className="text-[36px] text font-[700] mt-[-100px] mb-11 px-20">Каталог</p>
@@ -123,4 +123,4 @@ const Mebels = () => {
   );
 };
 
-export default Mebels;
+export default Catalog;

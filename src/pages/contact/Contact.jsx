@@ -1,10 +1,10 @@
 import React from "react";
-import Fon from "../fon/Fon";
+import Contact from "../contact/Contact";
 
 const Contact = () => {
   return (
     <div>
-      <Fon />
+      <Contact />
     </div>
   );
 };
