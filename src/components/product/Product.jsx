@@ -1,7 +1,6 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { useLocation, useParams } from "react-router-dom";
-import { IoArrowRedo } from "react-icons/io5";
 const API_URL = "https://dummyjson.com";
 const Product = () => {
   const { id } = useParams();
