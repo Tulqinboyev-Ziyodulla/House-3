@@ -7,6 +7,7 @@ import About from "./pages/About/About";
 import Dastafka from "./pages/delivery/Delivery";
 import Conditions from "./pages/conditions/Conditions";
 import Contact from "./pages/contacts/Contacts";
+import Product from "./components/product/Product";
 function App() {
   return (
     <>
@@ -17,6 +18,7 @@ function App() {
         <Route path="/Доставка" element={<Dastafka />} />
         <Route path="*" element={<Conditions />} />
         <Route path="/Контакты" element={<Contact />} />
+        <Route path="/product/:id" element={<Product />} />
       </Routes>
       <Footer />
     </>
